@@ -6,5 +6,6 @@ Projeto de desenvolvimento front-end do sistema da Coca-Cola Company, para a dis
     <li><a href="https://github.com/Maicolvictor">Michael Victor</a></li>
     <li><a href="https://github.com/tmelquiades">Thaís Melquíades</a></li>
     <li><a href="https://github.com/viniciusbat">Vinícius Batista</a></li>
+    <li><a href="https://github.com/MiguelCampos23">Miguel Campos</a></li>
     <li>Ubiracy Paz</li>
   </ul>
