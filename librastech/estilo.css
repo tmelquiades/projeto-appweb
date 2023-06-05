@@ -1,0 +1,66 @@
+
+body {
+    font-family: Arial, sans-serif; 
+    background-color: #E0F2FF;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container input[type="text"],
+.container input[type="email"],
+.container input[type="password"],
+.container input[type="tel"],
+.container textarea {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: -10px;
+}
+
+.container textarea {
+    resize: none; /* Impede o redimensionamento */
+}
+
+.container input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.container input[type="submit"] {
+    justify-content: center;
+    align-items: center;
+    background-color: #56AAF0;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.container input[type="submit"]:hover {
+    background-color: #3576C6;
+}
