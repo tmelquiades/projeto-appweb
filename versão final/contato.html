@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="Novosite.css">
+        <title>LIBRASTech</title>
+    </head>
+    <body>
+        <section>
+            <div class="circle"></div>
+            <header>
+                <a href="#"><img src="https://i.imgur.com/AmfWnOh.png" alt="" class="logo"></a>
+                <nav class="navegation">
+                    <ul>
+                        <li><a href="indexlibrastech.html">Início</a></li>
+                        <li><a href="cadastro.html">Cadastro</a></li>
+                        <li><a href="historia.html">História</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="container">
+                <h2>Envie-nos uma mensagem<hr></h2>
+                <form method='get' action='obrigadocontato.html'>
+                    <br>
+                    <div class="field">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                    </div>
+                    <br>
+                    <div class="field">
+                        <label for="e-mail">E-mail:</label>
+                        <input type="text" id="e-mail" name="e-mail" placeholder="Digite seu e-mail" required>
+                    </div>
+                    <br>
+                    <div class="field">
+                        <label for="assunto">Assunto:</label>
+                        <select name="assunto">
+                            <option value="Duvidas">Duvidas</option>
+                            <option value="Sugestões">Sugestoes</option>
+                            <option value="Elogios">Elogios</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div class="field">
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea name="mensagem" required></textarea>
+                    </div>
+                    <br>
+                    <input type="submit" value="Enviar Mensagem"/>
+                </form>
+            </div>
+        </section>
+        <footer style="text-align: center; color:#fff; background-color: #716DC2;">
+            LIBRASTech &copy; Direitos reservados.
+        </footer>
+    </body>
+</html>
